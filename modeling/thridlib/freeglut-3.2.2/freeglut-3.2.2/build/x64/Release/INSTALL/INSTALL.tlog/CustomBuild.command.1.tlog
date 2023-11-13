@@ -1,0 +1,10 @@
+^D:\THRIDLIB\FREEGLUT-3.2.2\FREEGLUT-3.2.2\BUILD\CMAKEFILES\73B8168D77AD32D66773D058C49D4B14\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

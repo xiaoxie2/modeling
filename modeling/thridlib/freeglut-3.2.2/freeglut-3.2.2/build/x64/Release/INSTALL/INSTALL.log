@@ -1,0 +1,14 @@
+﻿  1>
+  -- Install configuration: "Release"
+  -- Installing: D:/thridlib/freeglut-3.2.2/freeglut/lib/freeglut.lib
+  -- Installing: D:/thridlib/freeglut-3.2.2/freeglut/bin/freeglut.dll
+  -- Installing: D:/thridlib/freeglut-3.2.2/freeglut/lib/freeglut_static.lib
+  -- Installing: D:/thridlib/freeglut-3.2.2/freeglut/include/GL/freeglut.h
+  -- Installing: D:/thridlib/freeglut-3.2.2/freeglut/include/GL/freeglut_ucall.h
+  -- Installing: D:/thridlib/freeglut-3.2.2/freeglut/include/GL/freeglut_ext.h
+  -- Installing: D:/thridlib/freeglut-3.2.2/freeglut/include/GL/freeglut_std.h
+  -- Installing: D:/thridlib/freeglut-3.2.2/freeglut/lib/pkgconfig/freeglut.pc
+  -- Installing: D:/thridlib/freeglut-3.2.2/freeglut/lib/cmake/FreeGLUT/FreeGLUTTargets.cmake
+  -- Installing: D:/thridlib/freeglut-3.2.2/freeglut/lib/cmake/FreeGLUT/FreeGLUTTargets-release.cmake
+  -- Installing: D:/thridlib/freeglut-3.2.2/freeglut/lib/cmake/FreeGLUT/FreeGLUTConfig.cmake
+  -- Installing: D:/thridlib/freeglut-3.2.2/freeglut/lib/cmake/FreeGLUT/FreeGLUTConfigVersion.cmake

@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{616FF291-9A5A-370E-8A9B-496BE185BECE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>shapes</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shapes.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shapesd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shapes.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shapes</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">shapes.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">shapes</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">shapes.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">shapes</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\include;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\include;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\include;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;winmm.lib;lib\Debug\freeglutd.lib;opengl32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/lib/Debug/shapesd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/bin/Debug/shapesd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\include;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\include;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\include;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;winmm.lib;lib\Release\freeglut.lib;opengl32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/lib/Release/shapes.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/bin/Release/shapes.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\include;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\include;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\include;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;winmm.lib;lib\MinSizeRel\freeglut.lib;opengl32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/lib/MinSizeRel/shapes.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/bin/MinSizeRel/shapes.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\include;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\include;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\include;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;winmm.lib;lib\RelWithDebInfo\freeglut.lib;opengl32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/lib/RelWithDebInfo/shapes.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/bin/RelWithDebInfo/shapes.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\program\cmake\bin\cmake.exe -SD:/thridlib/freeglut-3.2.2/freeglut-3.2.2 -BD:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build --check-stamp-file D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\program\cmake\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\program\cmake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\program\cmake\share\cmake-3.28\Modules\FindOpenGL.cmake;D:\program\cmake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\program\cmake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\program\cmake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\program\cmake\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake;D:\program\cmake\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;D:\program\cmake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\program\cmake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\FreeGLUTConfig.cmake.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeCCompiler.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\config.h.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\freeglut.pc.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\freeglut.rc.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\program\cmake\bin\cmake.exe -SD:/thridlib/freeglut-3.2.2/freeglut-3.2.2 -BD:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build --check-stamp-file D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\program\cmake\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\program\cmake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\program\cmake\share\cmake-3.28\Modules\FindOpenGL.cmake;D:\program\cmake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\program\cmake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\program\cmake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\program\cmake\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake;D:\program\cmake\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;D:\program\cmake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\program\cmake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\FreeGLUTConfig.cmake.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeCCompiler.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\config.h.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\freeglut.pc.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\freeglut.rc.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\program\cmake\bin\cmake.exe -SD:/thridlib/freeglut-3.2.2/freeglut-3.2.2 -BD:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build --check-stamp-file D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\program\cmake\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\program\cmake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\program\cmake\share\cmake-3.28\Modules\FindOpenGL.cmake;D:\program\cmake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\program\cmake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\program\cmake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\program\cmake\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake;D:\program\cmake\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;D:\program\cmake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\program\cmake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\FreeGLUTConfig.cmake.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeCCompiler.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\config.h.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\freeglut.pc.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\freeglut.rc.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\program\cmake\bin\cmake.exe -SD:/thridlib/freeglut-3.2.2/freeglut-3.2.2 -BD:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build --check-stamp-file D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\program\cmake\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\program\cmake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\program\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;D:\program\cmake\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\program\cmake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\program\cmake\share\cmake-3.28\Modules\FindOpenGL.cmake;D:\program\cmake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\program\cmake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\program\cmake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\program\cmake\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake;D:\program\cmake\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake;D:\program\cmake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\program\cmake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\program\cmake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\FreeGLUTConfig.cmake.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeCCompiler.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\config.h.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\freeglut.pc.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\freeglut.rc.in;D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\progs\demos\shapes\shapes.c" />
+    <ClInclude Include="D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\progs\demos\shapes\glmatrix.h" />
+    <ClCompile Include="D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\progs\demos\shapes\glmatrix.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\ZERO_CHECK.vcxproj">
+      <Project>{57C0AA68-0540-3936-8EA1-227D6514C8BD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\thridlib\freeglut-3.2.2\freeglut-3.2.2\build\freeglut.vcxproj">
+      <Project>{7537904F-E073-3D80-A7AA-F3BF15FDF2A4}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

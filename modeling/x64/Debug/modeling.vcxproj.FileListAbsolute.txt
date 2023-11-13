@@ -1,0 +1,2 @@
+D:\code\opengl\modeling\x64\Debug\modeling.exe
+D:\code\homework\modeling\modeling\x64\Debug\modeling.exe

@@ -1,0 +1,12 @@
+D:/thridlib/freeglut-3.2.2/freeglut/lib/freeglut.lib
+D:/thridlib/freeglut-3.2.2/freeglut/bin/freeglut.dll
+D:/thridlib/freeglut-3.2.2/freeglut/lib/freeglut_static.lib
+D:/thridlib/freeglut-3.2.2/freeglut/include/GL/freeglut.h
+D:/thridlib/freeglut-3.2.2/freeglut/include/GL/freeglut_ucall.h
+D:/thridlib/freeglut-3.2.2/freeglut/include/GL/freeglut_ext.h
+D:/thridlib/freeglut-3.2.2/freeglut/include/GL/freeglut_std.h
+D:/thridlib/freeglut-3.2.2/freeglut/lib/pkgconfig/freeglut.pc
+D:/thridlib/freeglut-3.2.2/freeglut/lib/cmake/FreeGLUT/FreeGLUTTargets.cmake
+D:/thridlib/freeglut-3.2.2/freeglut/lib/cmake/FreeGLUT/FreeGLUTTargets-release.cmake
+D:/thridlib/freeglut-3.2.2/freeglut/lib/cmake/FreeGLUT/FreeGLUTConfig.cmake
+D:/thridlib/freeglut-3.2.2/freeglut/lib/cmake/FreeGLUT/FreeGLUTConfigVersion.cmake

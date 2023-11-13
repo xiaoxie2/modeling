@@ -1,0 +1,827 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/program/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/program/cmake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      生成启动时间为 2023/10/23 14:00:34。
+      
+      节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.04
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/3.28.0-rc2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/program/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/program/cmake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      生成启动时间为 2023/10/23 14:00:37。
+      
+      节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.66
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/3.28.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/program/cmake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-hexvaf"
+      binary: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-hexvaf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-hexvaf'
+        
+        Run Build Command(s): D:/program/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_93a41.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/10/23 14:00:39。
+        
+        节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hexvaf\\cmTC_93a41.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_93a41.dir\\Debug\\”。
+          正在创建目录“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hexvaf\\Debug\\”。
+          正在创建目录“cmTC_93a41.dir\\Debug\\cmTC_93a41.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_93a41.dir\\Debug\\cmTC_93a41.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93a41.dir\\Debug\\\\" /Fd"cmTC_93a41.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\program\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93a41.dir\\Debug\\\\" /Fd"cmTC_93a41.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\program\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hexvaf\\Debug\\cmTC_93a41.exe" /INCREMENTAL /ILK:"cmTC_93a41.dir\\Debug\\cmTC_93a41.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-hexvaf/Debug/cmTC_93a41.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-hexvaf/Debug/cmTC_93a41.lib" /MACHINE:X64  /machine:x64 cmTC_93a41.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_93a41.vcxproj -> D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hexvaf\\Debug\\cmTC_93a41.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_93a41.dir\\Debug\\cmTC_93a41.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_93a41.dir\\Debug\\cmTC_93a41.tlog\\cmTC_93a41.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hexvaf\\cmTC_93a41.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.66
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/program/cmake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-c4im4b"
+      binary: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-c4im4b"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-c4im4b'
+        
+        Run Build Command(s): D:/program/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_01637.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/10/23 14:00:41。
+        
+        节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4im4b\\cmTC_01637.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_01637.dir\\Debug\\”。
+          正在创建目录“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4im4b\\Debug\\”。
+          正在创建目录“cmTC_01637.dir\\Debug\\cmTC_01637.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_01637.dir\\Debug\\cmTC_01637.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_01637.dir\\Debug\\\\" /Fd"cmTC_01637.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\program\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_01637.dir\\Debug\\\\" /Fd"cmTC_01637.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\program\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4im4b\\Debug\\cmTC_01637.exe" /INCREMENTAL /ILK:"cmTC_01637.dir\\Debug\\cmTC_01637.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-c4im4b/Debug/cmTC_01637.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-c4im4b/Debug/cmTC_01637.lib" /MACHINE:X64  /machine:x64 cmTC_01637.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_01637.vcxproj -> D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4im4b\\Debug\\cmTC_01637.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_01637.dir\\Debug\\cmTC_01637.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_01637.dir\\Debug\\cmTC_01637.tlog\\cmTC_01637.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4im4b\\cmTC_01637.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.71
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:356 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-xd93gb"
+      binary: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-xd93gb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-xd93gb'
+        
+        Run Build Command(s): D:/program/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7a0d4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/10/23 14:00:44。
+        
+        节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xd93gb\\cmTC_7a0d4.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_7a0d4.dir\\Debug\\”。
+          正在创建目录“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xd93gb\\Debug\\”。
+          正在创建目录“cmTC_7a0d4.dir\\Debug\\cmTC_7a0d4.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_7a0d4.dir\\Debug\\cmTC_7a0d4.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a0d4.dir\\Debug\\\\" /Fd"cmTC_7a0d4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xd93gb\\HAVE_SYS_TYPES_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_SYS_TYPES_H.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a0d4.dir\\Debug\\\\" /Fd"cmTC_7a0d4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xd93gb\\HAVE_SYS_TYPES_H.c"
+        Link:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xd93gb\\Debug\\cmTC_7a0d4.exe" /INCREMENTAL /ILK:"cmTC_7a0d4.dir\\Debug\\cmTC_7a0d4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-xd93gb/Debug/cmTC_7a0d4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-xd93gb/Debug/cmTC_7a0d4.lib" /MACHINE:X64  /machine:x64 cmTC_7a0d4.dir\\Debug\\HAVE_SYS_TYPES_H.obj
+          cmTC_7a0d4.vcxproj -> D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xd93gb\\Debug\\cmTC_7a0d4.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_7a0d4.dir\\Debug\\cmTC_7a0d4.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_7a0d4.dir\\Debug\\cmTC_7a0d4.tlog\\cmTC_7a0d4.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xd93gb\\cmTC_7a0d4.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.67
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:357 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-blrmxm"
+      binary: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-blrmxm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-blrmxm'
+        
+        Run Build Command(s): D:/program/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4505b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/10/23 14:00:46。
+        
+        节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blrmxm\\cmTC_4505b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_4505b.dir\\Debug\\”。
+          正在创建目录“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blrmxm\\Debug\\”。
+          正在创建目录“cmTC_4505b.dir\\Debug\\cmTC_4505b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_4505b.dir\\Debug\\cmTC_4505b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4505b.dir\\Debug\\\\" /Fd"cmTC_4505b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blrmxm\\HAVE_UNISTD_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_UNISTD_H.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4505b.dir\\Debug\\\\" /Fd"cmTC_4505b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blrmxm\\HAVE_UNISTD_H.c"
+        D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blrmxm\\HAVE_UNISTD_H.c(2,10): fatal  error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blrmxm\\cmTC_4505b.vcxproj]
+        已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blrmxm\\cmTC_4505b.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blrmxm\\cmTC_4505b.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blrmxm\\HAVE_UNISTD_H.c(2,10): fatal  error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-blrmxm\\cmTC_4505b.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:358 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/time.h"
+    directories:
+      source: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-f1ij79"
+      binary: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-f1ij79"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-f1ij79'
+        
+        Run Build Command(s): D:/program/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_11a2d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/10/23 14:00:48。
+        
+        节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1ij79\\cmTC_11a2d.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_11a2d.dir\\Debug\\”。
+          正在创建目录“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1ij79\\Debug\\”。
+          正在创建目录“cmTC_11a2d.dir\\Debug\\cmTC_11a2d.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_11a2d.dir\\Debug\\cmTC_11a2d.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11a2d.dir\\Debug\\\\" /Fd"cmTC_11a2d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1ij79\\HAVE_SYS_TIME_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_SYS_TIME_H.c
+        D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1ij79\\HAVE_SYS_TIME_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1ij79\\cmTC_11a2d.vcxproj]
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11a2d.dir\\Debug\\\\" /Fd"cmTC_11a2d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1ij79\\HAVE_SYS_TIME_H.c"
+        已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1ij79\\cmTC_11a2d.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1ij79\\cmTC_11a2d.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1ij79\\HAVE_SYS_TIME_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1ij79\\cmTC_11a2d.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:359 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdbool.h"
+    directories:
+      source: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-dtgo3y"
+      binary: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-dtgo3y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-dtgo3y'
+        
+        Run Build Command(s): D:/program/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ba0a0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/10/23 14:00:50。
+        
+        节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtgo3y\\cmTC_ba0a0.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ba0a0.dir\\Debug\\”。
+          正在创建目录“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtgo3y\\Debug\\”。
+          正在创建目录“cmTC_ba0a0.dir\\Debug\\cmTC_ba0a0.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ba0a0.dir\\Debug\\cmTC_ba0a0.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba0a0.dir\\Debug\\\\" /Fd"cmTC_ba0a0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtgo3y\\HAVE_STDBOOL_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_STDBOOL_H.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba0a0.dir\\Debug\\\\" /Fd"cmTC_ba0a0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtgo3y\\HAVE_STDBOOL_H.c"
+        Link:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtgo3y\\Debug\\cmTC_ba0a0.exe" /INCREMENTAL /ILK:"cmTC_ba0a0.dir\\Debug\\cmTC_ba0a0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-dtgo3y/Debug/cmTC_ba0a0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-dtgo3y/Debug/cmTC_ba0a0.lib" /MACHINE:X64  /machine:x64 cmTC_ba0a0.dir\\Debug\\HAVE_STDBOOL_H.obj
+          cmTC_ba0a0.vcxproj -> D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtgo3y\\Debug\\cmTC_ba0a0.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_ba0a0.dir\\Debug\\cmTC_ba0a0.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_ba0a0.dir\\Debug\\cmTC_ba0a0.tlog\\cmTC_ba0a0.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dtgo3y\\cmTC_ba0a0.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.63
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:360 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/param.h"
+    directories:
+      source: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-sf32vj"
+      binary: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-sf32vj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-sf32vj'
+        
+        Run Build Command(s): D:/program/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_17037.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/10/23 14:00:52。
+        
+        节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sf32vj\\cmTC_17037.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_17037.dir\\Debug\\”。
+          正在创建目录“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sf32vj\\Debug\\”。
+          正在创建目录“cmTC_17037.dir\\Debug\\cmTC_17037.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_17037.dir\\Debug\\cmTC_17037.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17037.dir\\Debug\\\\" /Fd"cmTC_17037.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sf32vj\\HAVE_SYS_PARAM_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_SYS_PARAM_H.c
+        D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sf32vj\\HAVE_SYS_PARAM_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sf32vj\\cmTC_17037.vcxproj]
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17037.dir\\Debug\\\\" /Fd"cmTC_17037.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sf32vj\\HAVE_SYS_PARAM_H.c"
+        已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sf32vj\\cmTC_17037.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sf32vj\\cmTC_17037.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sf32vj\\HAVE_SYS_PARAM_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sf32vj\\cmTC_17037.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:361 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file sys/ioctl.h"
+    directories:
+      source: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-lcsagn"
+      binary: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-lcsagn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_SYS_IOCTL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-lcsagn'
+        
+        Run Build Command(s): D:/program/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_37e03.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/10/23 14:00:54。
+        
+        节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcsagn\\cmTC_37e03.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_37e03.dir\\Debug\\”。
+          正在创建目录“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcsagn\\Debug\\”。
+          正在创建目录“cmTC_37e03.dir\\Debug\\cmTC_37e03.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_37e03.dir\\Debug\\cmTC_37e03.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37e03.dir\\Debug\\\\" /Fd"cmTC_37e03.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcsagn\\HAVE_SYS_IOCTL_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_SYS_IOCTL_H.c
+        D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcsagn\\HAVE_SYS_IOCTL_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcsagn\\cmTC_37e03.vcxproj]
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37e03.dir\\Debug\\\\" /Fd"cmTC_37e03.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcsagn\\HAVE_SYS_IOCTL_H.c"
+        已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcsagn\\cmTC_37e03.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcsagn\\cmTC_37e03.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcsagn\\HAVE_SYS_IOCTL_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lcsagn\\cmTC_37e03.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:362 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file fcntl.h"
+    directories:
+      source: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-g4mq5r"
+      binary: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-g4mq5r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-g4mq5r'
+        
+        Run Build Command(s): D:/program/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_93fe4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/10/23 14:00:56。
+        
+        节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g4mq5r\\cmTC_93fe4.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_93fe4.dir\\Debug\\”。
+          正在创建目录“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g4mq5r\\Debug\\”。
+          正在创建目录“cmTC_93fe4.dir\\Debug\\cmTC_93fe4.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_93fe4.dir\\Debug\\cmTC_93fe4.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93fe4.dir\\Debug\\\\" /Fd"cmTC_93fe4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g4mq5r\\HAVE_FCNTL_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_FCNTL_H.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93fe4.dir\\Debug\\\\" /Fd"cmTC_93fe4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g4mq5r\\HAVE_FCNTL_H.c"
+        Link:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g4mq5r\\Debug\\cmTC_93fe4.exe" /INCREMENTAL /ILK:"cmTC_93fe4.dir\\Debug\\cmTC_93fe4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-g4mq5r/Debug/cmTC_93fe4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-g4mq5r/Debug/cmTC_93fe4.lib" /MACHINE:X64  /machine:x64 cmTC_93fe4.dir\\Debug\\HAVE_FCNTL_H.obj
+          cmTC_93fe4.vcxproj -> D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g4mq5r\\Debug\\cmTC_93fe4.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_93fe4.dir\\Debug\\cmTC_93fe4.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_93fe4.dir\\Debug\\cmTC_93fe4.tlog\\cmTC_93fe4.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g4mq5r\\cmTC_93fe4.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.66
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:363 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file usbhid.h"
+    directories:
+      source: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-0suexs"
+      binary: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-0suexs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_USBHID_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-0suexs'
+        
+        Run Build Command(s): D:/program/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_86fb3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/10/23 14:00:59。
+        
+        节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0suexs\\cmTC_86fb3.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_86fb3.dir\\Debug\\”。
+          正在创建目录“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0suexs\\Debug\\”。
+          正在创建目录“cmTC_86fb3.dir\\Debug\\cmTC_86fb3.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_86fb3.dir\\Debug\\cmTC_86fb3.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86fb3.dir\\Debug\\\\" /Fd"cmTC_86fb3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0suexs\\HAVE_USBHID_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_USBHID_H.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86fb3.dir\\Debug\\\\" /Fd"cmTC_86fb3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0suexs\\HAVE_USBHID_H.c"
+        D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0suexs\\HAVE_USBHID_H.c(2,10): fatal  error C1083: 无法打开包括文件: “usbhid.h”: No such file or directory [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0suexs\\cmTC_86fb3.vcxproj]
+        已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0suexs\\cmTC_86fb3.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0suexs\\cmTC_86fb3.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0suexs\\HAVE_USBHID_H.c(2,10): fatal  error C1083: 无法打开包括文件: “usbhid.h”: No such file or directory [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0suexs\\cmTC_86fb3.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:364 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-uvjake"
+      binary: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-uvjake"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-uvjake'
+        
+        Run Build Command(s): D:/program/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ea9e3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/10/23 14:01:01。
+        
+        节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvjake\\cmTC_ea9e3.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ea9e3.dir\\Debug\\”。
+          正在创建目录“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvjake\\Debug\\”。
+          正在创建目录“cmTC_ea9e3.dir\\Debug\\cmTC_ea9e3.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ea9e3.dir\\Debug\\cmTC_ea9e3.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea9e3.dir\\Debug\\\\" /Fd"cmTC_ea9e3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvjake\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea9e3.dir\\Debug\\\\" /Fd"cmTC_ea9e3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvjake\\CheckFunctionExists.c"
+        Link:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvjake\\Debug\\cmTC_ea9e3.exe" /INCREMENTAL /ILK:"cmTC_ea9e3.dir\\Debug\\cmTC_ea9e3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-uvjake/Debug/cmTC_ea9e3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-uvjake/Debug/cmTC_ea9e3.lib" /MACHINE:X64  /machine:x64 cmTC_ea9e3.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 gettimeofday，函数 main 中引用了该符号 [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvjake\\cmTC_ea9e3.vcxproj]
+        D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvjake\\Debug\\cmTC_ea9e3.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvjake\\cmTC_ea9e3.vcxproj]
+        已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvjake\\cmTC_ea9e3.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvjake\\cmTC_ea9e3.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 gettimeofday，函数 main 中引用了该符号 [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvjake\\cmTC_ea9e3.vcxproj]
+          D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvjake\\Debug\\cmTC_ea9e3.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uvjake\\cmTC_ea9e3.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:01.54
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:365 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for XParseGeometry"
+    directories:
+      source: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-yp4lj4"
+      binary: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-yp4lj4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_XPARSEGEOMETRY"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-yp4lj4'
+        
+        Run Build Command(s): D:/program/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_54316.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/10/23 14:01:03。
+        
+        节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp4lj4\\cmTC_54316.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_54316.dir\\Debug\\”。
+          正在创建目录“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp4lj4\\Debug\\”。
+          正在创建目录“cmTC_54316.dir\\Debug\\cmTC_54316.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_54316.dir\\Debug\\cmTC_54316.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=XParseGeometry /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54316.dir\\Debug\\\\" /Fd"cmTC_54316.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp4lj4\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=XParseGeometry /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54316.dir\\Debug\\\\" /Fd"cmTC_54316.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp4lj4\\CheckFunctionExists.c"
+        Link:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp4lj4\\Debug\\cmTC_54316.exe" /INCREMENTAL /ILK:"cmTC_54316.dir\\Debug\\cmTC_54316.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-yp4lj4/Debug/cmTC_54316.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-yp4lj4/Debug/cmTC_54316.lib" /MACHINE:X64  /machine:x64 cmTC_54316.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 XParseGeometry，函数 main 中引用了该符号 [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp4lj4\\cmTC_54316.vcxproj]
+        D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp4lj4\\Debug\\cmTC_54316.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp4lj4\\cmTC_54316.vcxproj]
+        已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp4lj4\\cmTC_54316.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp4lj4\\cmTC_54316.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 XParseGeometry，函数 main 中引用了该符号 [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp4lj4\\cmTC_54316.vcxproj]
+          D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp4lj4\\Debug\\cmTC_54316.exe : fatal error LNK1120: 1 个无法解析的外部命令 [D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yp4lj4\\cmTC_54316.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:01.55
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:373 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-qlqdh6"
+      binary: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-qlqdh6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-qlqdh6'
+        
+        Run Build Command(s): D:/program/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1daa8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/10/23 14:01:05。
+        
+        节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qlqdh6\\cmTC_1daa8.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_1daa8.dir\\Debug\\”。
+          正在创建目录“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qlqdh6\\Debug\\”。
+          正在创建目录“cmTC_1daa8.dir\\Debug\\cmTC_1daa8.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_1daa8.dir\\Debug\\cmTC_1daa8.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1daa8.dir\\Debug\\\\" /Fd"cmTC_1daa8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qlqdh6\\HAVE_STDINT_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_STDINT_H.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1daa8.dir\\Debug\\\\" /Fd"cmTC_1daa8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qlqdh6\\HAVE_STDINT_H.c"
+        Link:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qlqdh6\\Debug\\cmTC_1daa8.exe" /INCREMENTAL /ILK:"cmTC_1daa8.dir\\Debug\\cmTC_1daa8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-qlqdh6/Debug/cmTC_1daa8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-qlqdh6/Debug/cmTC_1daa8.lib" /MACHINE:X64  /machine:x64 cmTC_1daa8.dir\\Debug\\HAVE_STDINT_H.obj
+          cmTC_1daa8.vcxproj -> D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qlqdh6\\Debug\\cmTC_1daa8.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_1daa8.dir\\Debug\\cmTC_1daa8.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_1daa8.dir\\Debug\\cmTC_1daa8.tlog\\cmTC_1daa8.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qlqdh6\\cmTC_1daa8.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.63
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/program/cmake/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:374 (CHECK_INCLUDE_FILES)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-zz943w"
+      binary: "D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-zz943w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-zz943w'
+        
+        Run Build Command(s): D:/program/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c6e61.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        生成启动时间为 2023/10/23 14:01:08。
+        
+        节点 1 上的项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zz943w\\cmTC_c6e61.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c6e61.dir\\Debug\\”。
+          正在创建目录“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zz943w\\Debug\\”。
+          正在创建目录“cmTC_c6e61.dir\\Debug\\cmTC_c6e61.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c6e61.dir\\Debug\\cmTC_c6e61.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6e61.dir\\Debug\\\\" /Fd"cmTC_c6e61.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zz943w\\HAVE_INTTYPES_H.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          HAVE_INTTYPES_H.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6e61.dir\\Debug\\\\" /Fd"cmTC_c6e61.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zz943w\\HAVE_INTTYPES_H.c"
+        Link:
+          D:\\program\\vs\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zz943w\\Debug\\cmTC_c6e61.exe" /INCREMENTAL /ILK:"cmTC_c6e61.dir\\Debug\\cmTC_c6e61.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-zz943w/Debug/cmTC_c6e61.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/thridlib/freeglut-3.2.2/freeglut-3.2.2/build/CMakeFiles/CMakeScratch/TryCompile-zz943w/Debug/cmTC_c6e61.lib" /MACHINE:X64  /machine:x64 cmTC_c6e61.dir\\Debug\\HAVE_INTTYPES_H.obj
+          cmTC_c6e61.vcxproj -> D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zz943w\\Debug\\cmTC_c6e61.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_c6e61.dir\\Debug\\cmTC_c6e61.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_c6e61.dir\\Debug\\cmTC_c6e61.tlog\\cmTC_c6e61.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\thridlib\\freeglut-3.2.2\\freeglut-3.2.2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zz943w\\cmTC_c6e61.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.64
+        
+      exitCode: 0
+...
